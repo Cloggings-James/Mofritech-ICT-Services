@@ -13,9 +13,13 @@ The goal of this project is to establish a strong online presence for Mofritech 
 ### Technologies Used
 
 * Front-End (placeholder, replace with your actual technologies):
-    * HTML5
-    * CSS3
-    * JavaScript (Optional: Add specific frameworks like Bootsrapt
+HTML Files: Contains the HTML files for different sections of the website, including the homepage, portfolio, contact page, and more.
+CSS Files: Includes CSS stylesheets for styling the website and ensuring responsiveness across devices.
+JavaScript Files: Contains JavaScript files for implementing interactive elements and functionality on the website.
+Image Assets: Includes images used throughout the website, such as logos, banners, and portfolio thumbnails.
+Vendor Libraries: Contains third-party libraries and frameworks used in the development of the website, such as Bootstrap, jQuery, and FontAwesome.
+Configuration Files: Includes configuration files like settings.json and cookies.txt.
+Documentation: Provides documentation and guidelines for maintaining and updating the website.
 * Back-End (placeholder, replace if applicable):(we intent to add more features on our website with due time)
     * Programming Language (e.g., PHP, Python, Node.js)
     * Web Framework (e.g., Django, Express.js, Laravel)
@@ -25,19 +29,33 @@ The goal of this project is to establish a strong online presence for Mofritech 
 ### Folder Structure
 
 ```
-/assets/
-    /css/ (stylesheets)
-    /images/ (website images)
-    /js/ (javascript files)
-/pages/
-    /about-us.html
-    /contact-us.html
-    /index.html (homepage)
-    /services/
-        /automation.html
-        /ecommerce.html
-        /web-design.html
-/ (other relevant files like favicon.ico, robots.txt)
+/MofriTech-IT-Services
+    /assets
+        /css
+            style.css
+            bootstrap.min.css
+            // other CSS files
+        /images
+            logo.png
+            banner.jpg
+            // other image files
+        /js
+            script.js
+            jquery.min.js
+            bootstrap.min.js
+            // other JavaScript files
+    /pages
+        about-us.html
+        contact-us.html
+        index.html
+        /services
+            automation.html
+            ecommerce.html
+            web-design.html
+    favicon.ico
+    robots.txt
+    README.md
+
 ```
 
 
